@@ -1,0 +1,26 @@
+body {
+    margin: 15px;
+    padding: 0;
+}
+
+#map { 
+    height: calc( 300px );
+    width: calc( 500px );
+
+    border-radius: 5px;
+    border: solid green 2px;
+}
+
+h1 {
+    color: rgb(27, 128, 27);
+    font-size: 32px;
+
+    margin-bottom: 16px;
+}
+
+p {
+    color: rgb(27, 128, 27);
+    font-size: 16px;
+
+    margin-bottom: 16px;
+}
