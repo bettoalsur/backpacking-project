@@ -18,9 +18,22 @@ h1 {
     margin-bottom: 16px;
 }
 
-p {
+.opcao {
+    margin-top: 12px;
+}
+
+label {
     color: rgb(27, 128, 27);
-    font-size: 16px;
+    font-size: 18px;
 
     margin-bottom: 16px;
+}
+
+button {
+    background-color: rgb(0, 150, 0);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+    margin-top: 14px;
 }

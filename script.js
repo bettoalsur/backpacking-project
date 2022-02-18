@@ -13,7 +13,8 @@ async function getData(nomeArquivo) {
 
     let xs = [], ys = [];
 
-    const response = await fetch(nomeArquivo);
+    const url = "geolocationsCSV/"+nomeArquivo;
+    const response = await fetch(url);
     const data = await response.text();
     const rows = data.split('\n');
 
@@ -57,6 +58,7 @@ async function renderMap(nomeArquivo,color){
 
 
 // resize map when window size changes
+setSizeMap();
 
 window.addEventListener("resize", () => {
     setSizeMap();
@@ -83,7 +85,13 @@ function setSizeMap() {
 ////
 ////
 
-renderMap('Brasil_2017.csv','green');
+function renderSelected() {
+    const check1 = document.getElementById("Brasil_2017");
+    if (check1.checked) renderMap('Brasil_2017.csv','green');
+}
+
+
+
 
 
 
