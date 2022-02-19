@@ -1,62 +1,21 @@
 
-body {
-    margin: 15px;
-    padding: 0;
+:root {
+    --time-animation: 0.5s;
+    --final-height: 0px;
 }
 
-/* title */
-
-h1 {
-    color: rgb(27, 128, 27);
-    font-size: 32px;
-
-    margin-bottom: 16px;
+* {
+    box-sizing: border-box;
 }
 
 /* map */
 
 #map { 
-    height: calc( 300px );
-    width: calc( 500px );
-
-    border-radius: 5px;
-    border: solid green 2px;
-
+    height: calc( 100vh );
+    width: 100%;
     position: relative;
-}
-
-/* to plot points on map */
-
-.opcao {
-    margin-top: 14px;
-}
-
-label {
-    font-size: 18px;
-}
-
-button {
-    color: white;
-    font-weight: bold;
-    background-color: #50c254;
-    border: 1px green solid;
-    border-radius: 4px;
-    
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-
-    cursor: pointer;
-
-    padding: 5px;
-    margin-top: 14px;
-}
-
-/* current location button */
-
-ion-icon {
-    font-size: 22px;
-    color: black;
+    top: 0;
+    left: 0;
 }
 
 .current-location {
@@ -66,13 +25,195 @@ ion-icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 2px;
 
     position: absolute;
-    bottom: 10px;
+    bottom: 60px;
     left: 10px;
     z-index: 1001;
+}
+
+.current-location ion-icon {
+    font-size: 22px;
+    color: black;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 50px;
+
+    background-color: white;
+    border-top: 0.5px solid rgba(0, 128, 0, 0.5);
+
+    position: fixed;
+    top: calc(100% - 50px);
+    left: 0;
+    z-index: 1002;
+
+    transition: all var(--time-animation) ease-in-out;
+}
+
+.footer.open, .footer.open .opcoes {
+    box-shadow: 3px 3px 4px  rgba(39, 88, 39, 0.76);
+}
+
+.footer * {
+    background-color: white;
+}
+
+.footer.open {
+    top: var(--final-height);
+}
+
+.footer .topo-footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .plus-btn-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 10px;
+    height: 100%;
+}
+
+.footer .plus-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    width: 40px;
+    height: 40px;
+}
+
+.footer .plus-icon {
+    font-size: 26px;
+    color: green;
+    margin-right: 10px;
+    transition: transform var(--time-animation) ease-in-out;
+}
+
+.footer.open .plus-icon {
+    transform: rotateZ(-45deg);
+}
+
+.footer .text {
+    text-align: left;
+
+    color: green;
+    font-weight: bold;
+    
+    font-size: 22px;
+    letter-spacing: 105%;
+    white-space: nowrap;
+
+    opacity: 1;
+    transition: all var(--time-animation) ease-in-out;
+}
+
+.footer.open .text {
+    width: 0;
+    opacity: 0;
+}
+
+.footer button {
+
+    text-align: center;
+    font-size: 22px;
+
+    color: green;
+    background-color: white;
+    font-weight: bold;
+
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    appearance: none;
+
+    margin-right: 10px;
+
+    height: 40px;
+    width: 0px;
+    opacity: 0;
+    transition: all var(--time-animation) ease-in-out;
+}
+
+.footer.open button {
+    width: 40px;
+    opacity: 1;
+}
+
+.footer .opcoes {
+    height: 0px;
+    transition: all var(--time-animation) ease-in-out;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-top: 0.5px solid rgba(0, 128, 0, 0.5);
+}
+
+.footer.open .opcoes {
+    height: calc( 100vh - var(--final-height) - 50px );
+}
+
+
+/* options to plot points on map */
+
+.opcao {
+    padding: 10px;
+    height: 40px;
+}
+
+.opcoes:first-child,
+.opcoes:last-child {
+    padding: 10px 0;
+}
+
+.footer .opcao:hover {
+    background-color: #fafafa;
+}
+
+.footer label {
+    font-size: 20px;
+    margin-left: 7px;
+    opacity: 0;
+    transition: all var(--time-animation) ease-in-out;
+}
+
+.footer.open label {
+    opacity: 1;
+}
+
+/*  */
+/*  */
+/*  */
+
+.leaflet-bottom.leaflet-right {
+    top: 0;
+}
+
+@media (min-width: 425px) {
+
+    .footer.open {
+        width: 360px;
+        /* top: 250px; */
+    }
+
+    
+    /* .footer.open .opcoes {
+        height: calc( 100vh - 250px - 50px );
+    } */
+
 }

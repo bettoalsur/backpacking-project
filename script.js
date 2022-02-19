@@ -99,27 +99,15 @@ async function renderPoints(nomeArquivo,color){
 
 
 // resize map when window size changes
-
+/* 
 window.addEventListener("resize", () => {
     setSizeMap();
 });
 
 function setSizeMap() {
-    if (window.innerWidth < 530) {
-        if (window.innerWidth < window.innerHeight) { 
-            // vertical position
-            document.querySelector("#map").style.width = "calc( 100% )";
-            document.querySelector("#map").style.height = "calc( ( 100vw - 30px ) * 3 / 5 )";
-        } else {
-            // landed
-            document.querySelector("#map").style.width = "calc( 100% - 30px )";
-            document.querySelector("#map").style.height = "calc( ( 100vw - 30px - 30px ) * 3 / 5 )";
-        }
-    } else {
-        document.querySelector("#map").style.width = "calc( 500px )";
-        document.querySelector("#map").style.height = "calc( 300px )";
-    }
-}
+    document.querySelector("#map").style.width = window.innerWidth+"px";
+    document.querySelector("#map").style.height = window.innerHeight+"px";
+} */
 
 // criar checkboxes criarOpcoesHTML
 function criarOpcoesHTML() {
@@ -138,17 +126,24 @@ function criarOpcoesHTML() {
     }
 }
 
+function plusBtn() {
+    const elemento = document.querySelector(".footer");
+    elemento.classList.toggle("open");
+}
+
 
 ////
 ////
 ////
 
 criarOpcoesHTML();
-setSizeMap();
+// setSizeMap();
 createMap();
 map.setView([ 51.509865 , -0.118092 ], 13 );
 
 async function renderSelected() {
+
+    plusBtn();
 
     let filesSelected = 0;
 

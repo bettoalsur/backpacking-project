@@ -20,19 +20,29 @@
 </head>
 <body>
 
-    <h1>Where have I been in South America?</h1>
-
     <div id="map">
         <div class="current-location" onclick="getUserPosition()">
             <ion-icon name="locate-outline"></ion-icon>
         </div>
     </div>
 
-    <button type="submit" onclick="renderSelected()">Plot on the map</button>
-    
-    <div class="opcoes">
-        <!-- opcoes criadas via JS -->
-    </div>
+    <footer class="footer">
+
+        <div class="topo-footer">
+            <div class="plus-btn-text">
+                <div class="plus-btn" onclick="plusBtn()">
+                    <ion-icon class="plus-icon" name="add-outline"></ion-icon>
+                </div>
+                <p class="text">Plot on the map</p>
+            </div>
+            <button type="submit" onclick="renderSelected()">Ok</button>
+        </div>
+
+        <div class="opcoes">
+            <!-- opcoes criadas via JS -->
+        </div>
+
+    </footer>
     
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script src="script.js"></script>
