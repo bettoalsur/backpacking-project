@@ -1,169 +1,163 @@
-name,description,WKT
-"Quebrada de las Conchas","","POINT (-65.750008 -25.969404)"
-"San Salvador de Jujuy","","POINT (-65.299459 -24.185265)"
-"Mirador del Hornocal 14 Colores","","POINT (-65.198326 -23.209519)"
-"Mirador Hornocal 14 Colores","","POINT (-65.189442 -23.200612)"
-"Iruya","","POINT (-65.21583 -22.791213)"
-"San Isidro","","POINT (-65.241705 -22.757278)"
-"La Quiaca","","POINT (-65.596734 -22.104629)"
-"Plaza Independencia","","POINT (-65.203801 -26.830373)"
-"Isla Incahuasi","","POINT (-67.625136 -20.242572)"
-"Samaipata","","POINT (-63.875825 -18.179655)"
-"Edificio","","POINT (-63.160595 -17.772552)"
-"Aeropuerto Internacional Viru Viru","","POINT (-63.140299 -17.647933)"
-"Parque El Arenal","","POINT (-63.180583 -17.778044)"
-"Plaza 24 de Septiembre","","POINT (-63.182116 -17.783294)"
-"Museo de Historia Regional","","POINT (-63.18322 -17.782959)"
-"Paseo Artesanal La Recova","","POINT (-63.183239 -17.782119)"
-"Centro Cultural Casa Melchor Pinto","","POINT (-63.180902 -17.784093)"
-"Parque Urbano","","POINT (-63.170407 -17.794119)"
-"Las Brisas","","POINT (-63.176333 -17.749223)"
-"El Cristo","","POINT (-63.182485 -17.7705)"
-"Parque Regional y Área Natural de Manejo Integrado Lomas de Arena","","POINT (-63.142879 -17.959894)"
-"Espejillos","","POINT (-63.440138 -17.900869)"
-"Jardín Botánico Municipal de Santa Cruz","","POINT (-63.06675 -17.779672)"
-"Cotoca","","POINT (-62.996224 -17.754505)"
-"Mercado Municipal de Cotoca","","POINT (-62.99563 -17.753406)"
-"Santuario de la Virgen de Cotoca","","POINT (-62.996503 -17.754673)"
-"Plaza del estudiante","","POINT (-63.182858 -17.774445)"
-"Biblioteca Municipal Enrique Kempff Mercado","","POINT (-63.183094 -17.774365)"
-"Condominio La Casona","","POINT (-63.185985 -17.77167)"
-"Terminal Bimodal Santa Cruz de la Sierra","","POINT (-63.161033 -17.789131)"
-"Camionetas a Espejillos","","POINT (-63.352819 -17.948025)"
-"Mairana","","POINT (-63.956501 -18.119382)"
-"Yerba Buena Militar","","POINT (-64.031045 -17.980444)"
-"Clavel Blanco","","POINT (-65.258056 -19.049821)"
-"Terminal de Buses Sucre","","POINT (-65.246981 -19.039646)"
-"Pulquina","","POINT (-64.431236 -18.100223)"
-"Aiquile","","POINT (-65.180629 -18.200221)"
-"Peña Colorada","","POINT (-64.870217 -18.171645)"
-"Catariri","","POINT (-65.170101 -18.569636)"
-"El Chaco","","POINT (-65.11135 -18.896419)"
-"Calle Nataniel Aguirre","","POINT (-65.254957 -19.035788)"
-"Quebrada San Lorenzo","","POINT (-65.510224 -24.721597)"
-"Garganta del diablo","","POINT (-65.700867 -25.848568)"
-"Yotala","","POINT (-65.264762 -19.161581)"
-"Plaza de la Libertad","","POINT (-65.262621 -19.044303)"
-"Parque Libertador Simón Bolívar","","POINT (-65.264181 -19.041933)"
-"Callejón de Santa Teresa","","POINT (-65.254768 -19.048742)"
-"Plaza 25 de Mayo","","POINT (-65.259588 -19.047885)"
-"Mercado Central","","POINT (-65.258968 -19.045229)"
-"Viña Pampa","","POINT (-65.187098 -19.3615)"
-"Retiro Fonbera","","POINT (-65.275163 -19.591326)"
-"Potosí","","POINT (-65.753461 -19.58929)"
-"Lugar desconocido","","POINT (-65.802639 -19.63657)"
-"Tupiza","","POINT (-65.720845 -21.443784)"
-"Colchani","","POINT (-66.937819 -20.300609)"
-"Carretera Empalme RN5-San Cristobal","","POINT (-67.043434 -20.960969)"
-"Monumento al Dakar","","POINT (-67.044995 -20.330039)"
-"Isla de Banderas","","POINT (-67.047089 -20.330155)"
-"Hotel de Sal Playa Blanca","","POINT (-67.046827 -20.330723)"
-"Museo Abierto del Ferrocarril","","POINT (-66.835638 -20.480506)"
-"Nonis","","POINT (-66.823401 -20.464032)"
-"Calle Colón","","POINT (-66.817195 -20.453844)"
-"Cachuyo","","POINT (-66.16044 -19.860894)"
-"Rancho Tojra Palca","","POINT (-66.441119 -20.25386)"
-"Uyuni","","POINT (-66.823908 -20.462841)"
-"San Juan","","POINT (-67.765605 -20.901078)"
-"Volcán Ollagüe","","POINT (-68.179022 -21.302423)"
-"Avaroa","","POINT (-68.21186 -21.204872)"
-"Laguna Cañapa","","POINT (-68.011668 -21.508925)"
-"Lugar desconocido","","POINT (-67.995377 -21.391778)"
-"Laguna Hedionda","","POINT (-68.048713 -21.569654)"
-"Laguna Colorada","","POINT (-67.778855 -22.205675)"
-"Laguna Honda","","POINT (-68.060173 -21.622874)"
-"Desierto Siloli","","POINT (-68.03146 -21.863554)"
-"Lodge Cordillera","","POINT (-67.816425 -22.262847)"
-"Lugar desconocido","","POINT (-67.975982 -21.057856)"
-"Geisers","","POINT (-67.757325 -22.434718)"
-"Laguna Chalviri","","POINT (-67.621084 -22.535365)"
-"Reserva Nacional de Fauna Andina Eduardo Avaroa","","POINT (-67.652344 -22.427626)"
-"Lugar desconocido","","POINT (-67.610125 -22.07092)"
-"Reserva Nacional de Fauna Andina Eduardo Avaroa","","POINT (-67.605168 -22.249923)"
-"Lugar desconocido","","POINT (-67.397991 -20.867041)"
-"Cascada","","POINT (-67.533323 -21.874003)"
-"Villa Mar","","POINT (-67.481508 -21.755099)"
-"Valle de Rocas","","POINT (-67.524284 -21.726244)"
-"Laguna Vinto","","POINT (-67.524512 -21.698085)"
-"Laguna Negra","","POINT (-67.596905 -21.594735)"
-"Alota","","POINT (-67.596443 -21.404008)"
-"Presa de Colas Whila Khara","","POINT (-67.251352 -21.222264)"
-"Atocha","","POINT (-66.221514 -20.933348)"
-"Nueva Terminal de Buses","","POINT (-65.590148 -22.077173)"
-"Hotel Santusa","","POINT (-65.596277 -22.086454)"
-"Calle","","POINT (-65.585804 -22.087156)"
-"Templo de San Lázaro","","POINT (-65.254569 -19.050858)"
-"Mirador","","POINT (-65.254239 -19.054329)"
-"Cafe Gourmet Mirador","","POINT (-65.254167 -19.054149)"
-"Terminal Buses Villazón","","POINT (-65.596304 -22.089755)"
-"Mirador Hornocal 14 Colores","","POINT (-65.193321 -23.197538)"
-"Giramundo Hostel","","POINT (-65.347856 -23.202819)"
-"Monumento a los Héroes de la lndependencia","","POINT (-65.3506 -23.204027)"
-"Mirador de los Cóndores","","POINT (-65.21023 -22.798834)"
-"Iglesia de San Roque y Nuestra Sra. del Rosario","","POINT (-65.216553 -22.792026)"
-"Edificio","","POINT (-65.218441 -22.792785)"
-"Iturbe","","POINT (-65.352172 -22.978761)"
-"Cachi","","POINT (-66.161891 -25.119872)"
-"Mirador de la Pucará","","POINT (-65.403687 -23.585991)"
-"Garganta del Diablo","","POINT (-65.374346 -23.592637)"
-"cueva de Wayra","","POINT (-65.411132 -23.565073)"
-"Alojamiento El Cardon Tilcara","","POINT (-65.398113 -23.580588)"
-"Mirador los Colorados","","POINT (-65.501635 -23.749738)"
-"Vista panorámica","","POINT (-65.498299 -23.743409)"
-"Terminal de Omnibus de Tilcara","","POINT (-65.398649 -23.576241)"
-"Mercado Municipal de Tilcara","","POINT (-65.394122 -23.575956)"
-"Cerro de la Cruz","","POINT (-65.396101 -23.585848)"
-"La Caldera","","POINT (-65.383417 -24.603186)"
-"Vaqueros","","POINT (-65.409636 -24.690753)"
-"Cerro El Porito ($10)","","POINT (-65.501517 -23.745631)"
-"Perico","","POINT (-65.118142 -24.376166)"
-"Esperanto Hostel","","POINT (-65.406516 -24.782679)"
-"Monumento a Güemes","","POINT (-65.399285 -24.786726)"
-"Cerro San Bernardo","","POINT (-65.392585 -24.789359)"
-"Parque Nacional Los Cardones","","POINT (-65.929693 -25.280441)"
-"Alto Noa Shopping","","POINT (-65.402345 -24.781034)"
-"Plaza Alvarado","","POINT (-65.428335 -24.789231)"
-"Lugar desconocido","","POINT (-65.42472 -24.782627)"
-"Dique Campo Alegre","","POINT (-65.372836 -24.569722)"
-"Monumento",,"POINT (-65.397845 -24.762224)"
-"Edificio","","POINT (-65.405136 -24.774816)"
-"Chango Mas","","POINT (-65.419573 -24.805463)"
-"Lo de Chichi","","POINT (-65.976389 -26.070041)"
-"Vista panorámica","","POINT (-65.507351 -24.725741)"
-"El anfiteatro","","POINT (-65.701213 -25.855363)"
-"El Obelisco","","POINT (-65.783439 -26.005514)"
-"Plaza 20 de Febrero","","POINT (-65.97601 -26.072949)"
-"Aguilares","","POINT (-65.614672 -27.431493)"
-"Tres cruces","","POINT (-65.7115 -25.890921)"
-"Geoforma del Sapo","","POINT (-65.728167 -25.944437)"
-"Las Ventanas","","POINT (-65.799149 -26.010523)"
-"Terminal de bus","","POINT (-65.972374 -26.065398)"
-"Posadas","","POINT (-55.894303 -27.366492)"
-"Corrientes","","POINT (-58.831215 -27.4687)"
-"Santiago del Estero","","POINT (-64.259491 -27.787704)"
-"Presidencia Roque Sáenz Peña","","POINT (-60.441055 -26.790922)"
-"Curitiba","","POINT (-49.271263 -25.429578)"
-"Taboada","","POINT (-63.746449 -28.00761)"
-"Quimilí","","POINT (-62.417436 -27.644689)"
-"Corzuela","","POINT (-60.969614 -26.955772)"
-"Ituzaingó","","POINT (-56.689342 -27.589618)"
-"Jardín América","","POINT (-55.227355 -27.042828)"
-"Eldorado","","POINT (-54.625854 -26.4045)"
-"Estación Cataratas","","POINT (-54.449051 -25.683853)"
-"Terminal de Ómnibus de Puerto Iguazú","","POINT (-54.571116 -25.598379)"
-"El Guembe Hostel House","","POINT (-54.567841 -25.598084)"
-"Hostel Park Iguazu","","POINT (-54.568064 -25.59896)"
-"Tres Flags","","POINT (-54.591209 -25.595225)"
-"Hito Tres Fronteras","","POINT (-54.590766 -25.594763)"
-"Salto Dos Hermanas","","POINT (-54.445784 -25.683846)"
-"Mirador Garganta Del Diablo","","POINT (-54.437356 -25.695516)"
-"Salto San Martín","","POINT (-54.44425 -25.688746)"
-"Shell","","POINT (-54.51858 -25.494654)"
-"Posto Acaray","","POINT (-54.5092 -25.490829)"
-"Cascavel","","POINT (-53.456067 -24.955502)"
-"Registro","","POINT (-47.844885 -24.49795)"
-"Lugar desconocido","","POINT (-68.047537 -21.685035)"
-"Árbol de Piedra","","POINT (-67.882909 -22.051702)"
-"Mirador Laguna Colorada",,"POINT (-67.804567 -22.170408)"
-"Mirador Laguna Colorada",,"POINT (-67.804567 -22.170408)"
-"Mirador Laguna Colorada",,"POINT (-67.804567 -22.170408)"
+-65.750008,-25.969404,Quebrada de las Conchas,,2018/11/02 07:52:24+00
+-65.299459,-24.185265,San Salvador de Jujuy,,2018/11/02 07:52:56+00
+-65.198326,-23.209519,Mirador del Hornocal 14 Colores,,2018/11/26 04:11:24+00
+-65.189442,-23.200612,Mirador Hornocal 14 Colores,,2018/11/26 04:11:28+00
+-65.21583,-22.791213,Iruya,,2018/11/26 04:12:42+00
+-65.241705,-22.757278,San Isidro,,2018/11/26 04:13:20+00
+-65.596734,-22.104629,La Quiaca,,2018/11/26 04:15:41+00
+-65.203801,-26.830373,Plaza Independencia,,2018/11/27 18:50:14+00
+-67.625136,-20.242572,Isla Incahuasi,,2018/12/01 04:10:52+00
+-63.875825,-18.179655,Samaipata,,2018/12/27 05:47:31+00
+-63.160595,-17.772552,Edificio,,2018/12/27 05:48:15+00
+-63.140299,-17.647933,Aeropuerto Internacional Viru Viru,,2018/12/27 05:49:48+00
+-63.180583,-17.778044,Parque El Arenal,,2018/12/27 05:50:08+00
+-63.182116,-17.783294,Plaza 24 de Septiembre,,2018/12/27 05:50:41+00
+-63.18322,-17.782959,Museo de Historia Regional,,2018/12/27 05:51:25+00
+-63.183239,-17.782119,Paseo Artesanal La Recova,,2018/12/27 05:51:50+00
+-63.180902,-17.784093,Centro Cultural Casa Melchor Pinto,,2018/12/27 05:52:35+00
+-63.170407,-17.794119,Parque Urbano,,2018/12/27 05:53:11+00
+-63.176333,-17.749223,Las Brisas,,2018/12/27 05:53:55+00
+-63.182485,-17.7705,El Cristo,,2018/12/27 05:54:24+00
+-63.142879,-17.959894,Parque Regional y Área Natural de Manejo Integrado Lomas de Arena,,2018/12/27 05:56:03+00
+-63.440138,-17.900869,Espejillos,,2018/12/27 05:58:12+00
+-63.06675,-17.779672,Jardín Botánico Municipal de Santa Cruz,,2018/12/27 17:06:45+00
+-62.996224,-17.754505,Cotoca,,2018/12/28 13:12:04+00
+-62.99563,-17.753406,Mercado Municipal de Cotoca,,2018/12/28 13:12:21+00
+-62.996503,-17.754673,Santuario de la Virgen de Cotoca,,2018/12/28 13:12:27+00
+-63.182858,-17.774445,Plaza del estudiante,,2018/12/28 13:13:01+00
+-63.183094,-17.774365,Biblioteca Municipal Enrique Kempff Mercado,,2018/12/28 13:13:07+00
+-63.185985,-17.77167,Condominio La Casona,,2019/01/02 06:58:56+00
+-63.161033,-17.789131,Terminal Bimodal Santa Cruz de la Sierra,,2019/01/03 05:55:28+00
+-63.352819,-17.948025,Camionetas a Espejillos,,2019/01/03 22:17:47+00
+-63.956501,-18.119382,Mairana,,2019/01/04 01:50:59+00
+-64.031045,-17.980444,Yerba Buena Militar,,2019/01/04 02:24:38+00
+-65.258056,-19.049821,Clavel Blanco,,2019/01/04 02:25:46+00
+-65.246981,-19.039646,Terminal de Buses Sucre,,2019/01/04 02:26:13+00
+-64.431236,-18.100223,Pulquina,,2019/01/04 04:52:51+00
+-65.180629,-18.200221,Aiquile,,2019/01/04 04:53:11+00
+-64.870217,-18.171645,Peña Colorada,,2019/01/04 05:46:39+00
+-65.170101,-18.569636,Catariri,,2019/01/04 09:04:15+00
+-65.11135,-18.896419,El Chaco,,2019/01/04 09:35:13+00
+-65.254957,-19.035788,Calle Nataniel Aguirre,,2019/01/04 16:13:13+00
+-65.510224,-24.721597,Quebrada San Lorenzo,,2019/01/05 00:43:09+00
+-65.700867,-25.848568,Garganta del diablo,,2019/01/05 00:44:48+00
+-65.264762,-19.161581,Yotala,,2019/01/06 01:39:37+00
+-65.262621,-19.044303,Plaza de la Libertad,,2019/01/06 01:41:55+00
+-65.264181,-19.041933,Parque Libertador Simón Bolívar,,2019/01/06 01:42:06+00
+-65.254768,-19.048742,Callejón de Santa Teresa,,2019/01/06 01:43:35+00
+-65.259588,-19.047885,Plaza 25 de Mayo,,2019/01/06 01:46:58+00
+-65.258968,-19.045229,Mercado Central,,2019/01/06 01:48:13+00
+-65.187098,-19.3615,Viña Pampa,,2019/01/06 02:03:27+00
+-65.275163,-19.591326,Retiro Fonbera,,2019/01/06 02:28:31+00
+-65.753461,-19.58929,Potosí,,2019/01/06 02:43:04+00
+-65.802639,-19.63657,Lugar desconocido,,2019/01/06 04:25:17+00
+-65.720845,-21.443784,Tupiza,,2019/01/06 15:04:19+00
+-66.937819,-20.300609,Colchani,,2019/01/06 22:30:43+00
+-67.043434,-20.960969,Carretera Empalme RN5-San Cristobal,,2019/01/06 22:31:06+00
+-67.044995,-20.330039,Monumento al Dakar,,2019/01/06 22:32:45+00
+-67.047089,-20.330155,Isla de Banderas,,2019/01/06 22:32:53+00
+-67.046827,-20.330723,Hotel de Sal Playa Blanca,,2019/01/06 22:32:58+00
+-66.835638,-20.480506,Museo Abierto del Ferrocarril,,2019/01/06 22:34:28+00
+-66.823401,-20.464032,Nonis,,2019/01/06 22:34:52+00
+-66.817195,-20.453844,Calle Colón,,2019/01/06 22:36:10+00
+-66.16044,-19.860894,Cachuyo,,2019/01/06 22:37:13+00
+-66.441119,-20.25386,Rancho Tojra Palca,,2019/01/06 22:37:38+00
+-66.823908,-20.462841,Uyuni,,2019/01/06 23:08:08+00
+-67.765605,-20.901078,San Juan,,2019/01/06 23:20:37+00
+-68.179022,-21.302423,Volcán Ollagüe,,2019/01/07 12:24:05+00
+-68.21186,-21.204872,Avaroa,,2019/01/07 13:43:38+00
+-68.011668,-21.508925,Laguna Cañapa,,2019/01/07 14:35:24+00
+-67.995377,-21.391778,Lugar desconocido,,2019/01/07 14:43:04+00
+-68.048713,-21.569654,Laguna Hedionda,,2019/01/07 15:35:48+00
+-67.778855,-22.205675,Laguna Colorada,,2019/01/07 15:36:07+00
+-68.060173,-21.622874,Laguna Honda,,2019/01/07 17:05:22+00
+-68.03146,-21.863554,Desierto Siloli,,2019/01/07 18:03:51+00
+-67.816425,-22.262847,Lodge Cordillera,,2019/01/07 21:10:24+00
+-67.975982,-21.057856,Lugar desconocido,,2019/01/08 07:57:38+00
+-67.757325,-22.434718,Geisers,,2019/01/08 10:44:46+00
+-67.621084,-22.535365,Laguna Chalviri,,2019/01/08 10:57:51+00
+-67.652344,-22.427626,Reserva Nacional de Fauna Andina Eduardo Avaroa,,2019/01/08 13:11:25+00
+-67.610125,-22.07092,Lugar desconocido,,2019/01/08 13:55:40+00
+-67.605168,-22.249923,Reserva Nacional de Fauna Andina Eduardo Avaroa,,2019/01/08 13:55:58+00
+-67.397991,-20.867041,Lugar desconocido,,2019/01/08 13:56:23+00
+-67.533323,-21.874003,Cascada,,2019/01/08 14:34:52+00
+-67.481508,-21.755099,Villa Mar,,2019/01/08 15:02:21+00
+-67.524284,-21.726244,Valle de Rocas,,2019/01/08 16:12:22+00
+-67.524512,-21.698085,Laguna Vinto,,2019/01/08 16:21:43+00
+-67.596905,-21.594735,Laguna Negra,,2019/01/08 16:24:52+00
+-67.596443,-21.404008,Alota,,2019/01/08 18:47:06+00
+-67.251352,-21.222264,Presa de Colas Whila Khara,,2019/01/08 20:04:18+00
+-66.221514,-20.933348,Atocha,,2019/01/09 00:53:03+00
+-65.590148,-22.077173,Nueva Terminal de Buses,,2019/01/09 01:30:51+00
+-65.596277,-22.086454,Hotel Santusa,,2019/01/09 07:00:24+00
+-65.585804,-22.087156,Calle,,2019/01/09 07:03:46+00
+-65.254569,-19.050858,Templo de San Lázaro,,2019/01/09 15:39:05+00
+-65.254239,-19.054329,Mirador,,2019/01/09 15:40:45+00
+-65.254167,-19.054149,Cafe Gourmet Mirador,,2019/01/09 15:41:04+00
+-65.596304,-22.089755,Terminal Buses Villazón,,2019/01/10 02:08:41+00
+-65.193321,-23.197538,Mirador Hornocal 14 Colores,,2019/01/11 15:59:05+00
+-65.347856,-23.202819,Giramundo Hostel,,2019/01/12 16:10:34+00
+-65.3506,-23.204027,Monumento a los Héroes de la lndependencia,,2019/01/12 16:10:52+00
+-65.21023,-22.798834,Mirador de los Cóndores,,2019/01/12 20:56:07+00
+-65.216553,-22.792026,Iglesia de San Roque y Nuestra Sra. del Rosario,,2019/01/13 11:14:57+00
+-65.218441,-22.792785,Edificio,,2019/01/13 11:15:05+00
+-65.352172,-22.978761,Iturbe,,2019/01/13 18:45:14+00
+-66.161891,-25.119872,Cachi,,2019/01/13 23:30:53+00
+-65.403687,-23.585991,Mirador de la Pucará,,2019/01/14 02:27:22+00
+-65.374346,-23.592637,Garganta del Diablo,,2019/01/14 02:29:08+00
+-65.411132,-23.565073,cueva de Wayra,,2019/01/14 02:29:45+00
+-65.398113,-23.580588,Alojamiento El Cardon Tilcara,,2019/01/14 12:20:54+00
+-65.501635,-23.749738,Mirador los Colorados,,2019/01/14 13:50:59+00
+-65.498299,-23.743409,Vista panorámica,,2019/01/14 13:51:12+00
+-65.398649,-23.576241,Terminal de Omnibus de Tilcara,,2019/01/14 15:42:07+00
+-65.394122,-23.575956,Mercado Municipal de Tilcara,,2019/01/14 15:42:19+00
+-65.396101,-23.585848,Cerro de la Cruz,,2019/01/15 03:42:26+00
+-65.383417,-24.603186,La Caldera,,2019/01/16 14:10:20+00
+-65.409636,-24.690753,Vaqueros,,2019/01/16 14:10:23+00
+-65.501517,-23.745631,Cerro El Porito ($10),,2019/01/16 18:01:00+00
+-65.118142,-24.376166,Perico,,2019/01/17 02:38:26+00
+-65.406516,-24.782679,Esperanto Hostel,,2019/01/17 08:13:12+00
+-65.399285,-24.786726,Monumento a Güemes,,2019/01/17 16:59:15+00
+-65.392585,-24.789359,Cerro San Bernardo,,2019/01/17 19:53:15+00
+-65.929693,-25.280441,Parque Nacional Los Cardones,,2019/01/18 21:24:51+00
+-65.402345,-24.781034,Alto Noa Shopping,,2019/01/18 21:39:02+00
+-65.428335,-24.789231,Plaza Alvarado,,2019/01/18 22:23:17+00
+-65.42472,-24.782627,Lugar desconocido,,2019/01/19 14:00:18+00
+-65.372836,-24.569722,Dique Campo Alegre,,2019/01/20 20:57:01+00
+-65.397845,-24.762224,Monumento,,2019/01/21 17:37:39+00
+-65.405136,-24.774816,Edificio,,2019/01/21 17:38:25+00
+-65.419573,-24.805463,Chango Mas,,2019/01/21 17:39:16+00
+-65.976389,-26.070041,Lo de Chichi,,2019/01/21 17:54:54+00
+-65.507351,-24.725741,Vista panorámica,,2019/01/21 17:55:20+00
+-65.701213,-25.855363,El anfiteatro,,2019/01/21 22:53:24+00
+-65.783439,-26.005514,El Obelisco,,2019/01/21 23:26:30+00
+-65.97601,-26.072949,Plaza 20 de Febrero,,2019/01/22 14:07:39+00
+-65.614672,-27.431493,Aguilares,,2019/01/22 14:21:11+00
+-65.7115,-25.890921,Tres cruces,,2019/01/22 19:59:51+00
+-65.728167,-25.944437,Geoforma del Sapo,,2019/01/22 20:08:03+00
+-65.799149,-26.010523,Las Ventanas,,2019/01/22 21:12:02+00
+-65.972374,-26.065398,Terminal de bus,,2019/01/23 12:20:47+00
+-55.894303,-27.366492,Posadas,,2019/01/23 14:35:57+00
+-58.831215,-27.4687,Corrientes,,2019/01/23 14:36:13+00
+-64.259491,-27.787704,Santiago del Estero,,2019/01/23 14:36:22+00
+-60.441055,-26.790922,Presidencia Roque Sáenz Peña,,2019/01/23 14:36:26+00
+-63.746449,-28.00761,Taboada,,2019/01/24 00:13:53+00
+-62.417436,-27.644689,Quimilí,,2019/01/24 01:13:19+00
+-60.969614,-26.955772,Corzuela,,2019/01/24 04:33:48+00
+-56.689342,-27.589618,Ituzaingó,,2019/01/24 12:25:48+00
+-55.227355,-27.042828,Jardín América,,2019/01/24 15:38:31+00
+-54.625854,-26.4045,Eldorado,,2019/01/24 15:38:35+00
+-54.449051,-25.683853,Estación Cataratas,,2019/01/24 20:24:20+00
+-54.571116,-25.598379,Terminal de Ómnibus de Puerto Iguazú,,2019/01/24 21:05:23+00
+-54.567841,-25.598084,El Guembe Hostel House,,2019/01/24 21:07:09+00
+-54.568064,-25.59896,Hostel Park Iguazu,,2019/01/25 11:49:01+00
+-54.591209,-25.595225,Tres Flags,,2019/01/26 16:30:50+00
+-54.590766,-25.594763,Hito Tres Fronteras,,2019/01/26 16:31:01+00
+-54.445784,-25.683846,Salto Dos Hermanas,,2019/01/26 16:31:31+00
+-54.437356,-25.695516,Mirador Garganta Del Diablo,,2019/01/26 16:32:19+00
+-54.44425,-25.688746,Salto San Martín,,2019/01/26 16:32:23+00
+-68.047537,-21.685035,Lugar desconocido,,2020/01/07 22:14:35+00
+-67.882909,-22.051702,Árbol de Piedra,,2020/01/07 22:46:15+00
+-67.804567,-22.170408,Mirador Laguna Colorada,,2020/01/07 23:24:13+00
+-67.804567,-22.170408,Mirador Laguna Colorada,,2020/01/07 23:24:34+00
+-67.804567,-22.170408,Mirador Laguna Colorada,,2020/01/07 23:26:12+00
