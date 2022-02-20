@@ -2,6 +2,7 @@
 :root {
     --time-animation: 0.5s;
     --final-height: 0px;
+    --backgroundColorMenu: #fdfdfd;
 }
 
 * {
@@ -19,8 +20,8 @@
 }
 
 .current-location {
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
 
     display: flex;
     justify-content: center;
@@ -28,11 +29,12 @@
     cursor: pointer;
 
     background-color: #fff;
-    border: 2px solid #ccc;
-    border-radius: 2px;
+    border: 2px solid #bbb;
+    border-radius: 4px;
 
     position: absolute;
-    bottom: 60px;
+    /* bottom: 60px; */
+    top: 82px;
     left: 10px;
     z-index: 1001;
 }
@@ -48,7 +50,7 @@
     width: 100%;
     height: 50px;
 
-    background-color: white;
+    background-color: var(--backgroundColorMenu);
     border-top: 0.5px solid rgba(0, 128, 0, 0.5);
 
     position: fixed;
@@ -64,7 +66,7 @@
 }
 
 .footer * {
-    background-color: white;
+    background-color: var(--backgroundColorMenu);
 }
 
 .footer.open {
@@ -81,7 +83,6 @@
 
 .footer .plus-btn-text {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 
@@ -117,7 +118,7 @@
     font-weight: bold;
     
     font-size: 22px;
-    letter-spacing: 105%;
+    letter-spacing: 104%;
     white-space: nowrap;
 
     opacity: 1;
@@ -131,11 +132,11 @@
 
 .footer button {
 
-    text-align: center;
+    text-align: left;
     font-size: 22px;
 
     color: green;
-    background-color: white;
+    background-color: var(--backgroundColorMenu);
     font-weight: bold;
 
     border: none;
@@ -172,24 +173,23 @@
 /* options to plot points on map */
 
 .opcao {
-    padding: 10px;
+    padding: 14px 20px;
+
     height: 40px;
+    width: 100%;
 }
 
-.opcoes:first-child,
-.opcoes:last-child {
-    padding: 10px 0;
-}
-
-.footer .opcao:hover {
-    background-color: #fafafa;
+.footer .opcao:hover,
+.footer .opcao:hover label {
+    background-color: #f7f7f7;
 }
 
 .footer label {
+    width: calc( 100% - 80px );
+    margin-left: 14px;
     font-size: 20px;
-    margin-left: 7px;
     opacity: 0;
-    transition: all var(--time-animation) ease-in-out;
+    transition: opacity var(--time-animation) ease-in-out;
 }
 
 .footer.open label {
@@ -207,13 +207,7 @@
 @media (min-width: 425px) {
 
     .footer.open {
-        width: 360px;
-        /* top: 250px; */
+        width: 425px;
     }
-
-    
-    /* .footer.open .opcoes {
-        height: calc( 100vh - 250px - 50px );
-    } */
 
 }

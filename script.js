@@ -15,7 +15,7 @@ const filesName = [
     "Ecuador_2014"
 ];
     
-const colors = ["blue","purple","orange","green","darkolivegreen","seagreen","orangered","red"];
+const colors = ["blue","purple","orange","seagreen","green","darkolivegreen","orangered","red"];
 
 function createMap(){
     
@@ -97,10 +97,9 @@ async function renderPoints(nomeArquivo,color){
     
 }
 
-
 // resize map when window size changes
-/* 
-window.addEventListener("resize", () => {
+
+/* window.addEventListener("resize", () => {
     setSizeMap();
 });
 
@@ -185,13 +184,4 @@ async function renderSelected() {
     }
 
 }
-
-
-
-
-
-
-
-
-
 

@@ -1,0 +1,56 @@
+
+:root {
+    --timeAnimationCheck: 0.5s;
+    --checkWidth: 36px;
+}
+
+/* div that hold the button */
+
+.opcao {
+    display: flex;
+    align-items: center;
+}
+
+/* checkbox when no-checked */
+
+input[type="checkbox"] {
+    width: calc( var(--checkWidth) );
+    height: calc( var(--checkWidth) / 2 );
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #c3c3c3;
+    border-radius: calc( var(--checkWidth) / 4 );
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    outline: none;
+    position: relative;
+    transition: all var(--timeAnimationCheck); /* for color */
+}
+
+/* checkbox when checked */
+
+input:checked[type="checkbox"] {
+    background-color: #b0ffb0;
+    box-shadow: inset 0 0 5px rgba(0,50,0,0.2);
+}
+
+/* ball inside the checkbox when no-checked */
+
+input[type="checkbox"]:before {
+    content: "";
+    width: calc( var(--checkWidth) / 2 );
+    height: calc( var(--checkWidth) / 2 );
+    border-radius: calc( var(--checkWidth) / 4 );
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all var(--timeAnimationCheck); /* for desplacement */
+}
+
+/* ball inside the checkbox when checked */
+
+input:checked[type="checkbox"]:before {
+    left: calc( var(--checkWidth) / 2 );
+}
