@@ -12,10 +12,23 @@ const filesName = [
     "Brasil_2019",
     "Brasil_2021",
     "Colombia_2016",
-    "Ecuador_2014"
+    "Ecuador_2014",
+    "Europa_2016",
+    "Mexico_2017"
 ];
     
-const colors = ["blue","purple","orange","seagreen","green","darkolivegreen","orangered","red"];
+const colors = [
+    "blue",
+    "purple",
+    "orange",
+    "seagreen",
+    "green",
+    "darkgreen",
+    "darkred",
+    "orangered",
+    "darkcyan",
+    "darkblue"
+];
 
 function createMap(){
     
