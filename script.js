@@ -97,17 +97,6 @@ async function renderPoints(nomeArquivo,color){
     
 }
 
-// resize map when window size changes
-
-/* window.addEventListener("resize", () => {
-    setSizeMap();
-});
-
-function setSizeMap() {
-    document.querySelector("#map").style.width = window.innerWidth+"px";
-    document.querySelector("#map").style.height = window.innerHeight+"px";
-} */
-
 // criar checkboxes criarOpcoesHTML
 function criarOpcoesHTML() {
     const elemento = document.querySelector(".opcoes");
@@ -136,7 +125,6 @@ function plusBtn() {
 ////
 
 criarOpcoesHTML();
-// setSizeMap();
 createMap();
 map.setView([ 51.509865 , -0.118092 ], 13 );
 
