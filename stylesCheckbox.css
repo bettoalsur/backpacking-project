@@ -30,7 +30,6 @@ input[type="checkbox"] {
 
 input:checked[type="checkbox"] {
     background-color: #b0ffb0;
-    box-shadow: inset 0 0 5px rgba(0,50,0,0.2);
 }
 
 /* ball inside the checkbox when no-checked */

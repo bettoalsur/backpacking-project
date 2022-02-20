@@ -71,8 +71,6 @@ async function renderPoints(nomeArquivo,color){
     const xs = data.xs;
     const ys = data.ys;
     
-    let centroideX = 0;
-    let centroideY = 0;
 
     for (let i = 0 ; i < xs.length ; i ++){
 
@@ -83,18 +81,7 @@ async function renderPoints(nomeArquivo,color){
         }).addTo(map);
 
         points.push(circle);
-
-        // calcula o centroide 
-        centroideX += xs[i];
-        centroideY += ys[i];
     }
-
-    return { 
-        centroideX: centroideX,
-        centroideY: centroideY,
-        numberPoints: xs.length
-    };
-    
 }
 
 // criar checkboxes criarOpcoesHTML
@@ -151,25 +138,34 @@ async function renderSelected() {
 
     // se ha pontos para plotar...
 
-    let centroideX = 0;
-    let centroideY = 0;
-    let numberPoints = 0;
-
     for (let i = 0 ; i < filesName.length ; i++){
         let checkbox = document.getElementById(filesName[i]);
         if (checkbox.checked) {
-            let info = await renderPoints(filesName[i],colors[i]);
-            centroideX += info.centroideX;
-            centroideY += info.centroideY;
-            numberPoints += info.numberPoints;
+            await renderPoints(filesName[i],colors[i]);
         }
     }
 
-    if (numberPoints!=0) {
-        centroideX = centroideX / numberPoints;
-        centroideY = centroideY / numberPoints;
-        map.setView([ centroideY , centroideX ],3);
-    }
-
+    fitMapOnScreen();
 }
 
+function getLatPerPix() {
+    let northEastPoint = map.getBounds().getNorthEast().lat;
+    let southEastPoint = map.getBounds().getSouthEast().lat;
+    let mapHeightInLat = northEastPoint - southEastPoint;
+    let mapHeightInPixels = map.getSize().y;
+
+    return mapHeightInLat / mapHeightInPixels;
+}
+
+function fitMapOnScreen() {
+    
+    let group = new L.featureGroup(points);
+
+    let latCorr = group.getBounds()._southWest.lat - 60*getLatPerPix();
+
+    let p1 = L.marker( group.getBounds()._northEast );
+    let p2 = L.marker([ latCorr , group.getBounds()._southWest.lng ]);
+    
+    group = new L.featureGroup([p1,p2]);
+    map.fitBounds( group.getBounds() );
+}
